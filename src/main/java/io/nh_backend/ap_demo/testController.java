@@ -4,12 +4,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 public class testController {
 
-    @GetMapping('/hello')
+    @GetMapping("/hello")
     public String sayHello(){
         return "Hello World!";
     }
 
-    @GetMapping('/bye')
+    @GetMapping("/bye")
     public String sayBye(){
         return "GoodBye!";
     }
