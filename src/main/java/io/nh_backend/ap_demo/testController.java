@@ -9,4 +9,8 @@ public class testController {
         return "Hello World!";
     }
 
+    @GetMapping('/bye')
+    public String sayBye(){
+        return "GoodBye!";
+    }
 }
