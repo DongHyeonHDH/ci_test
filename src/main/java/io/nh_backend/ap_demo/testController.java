@@ -13,4 +13,9 @@ public class testController {
     public String sayBye(){
         return "GoodBye!";
     }
+
+    @GetMapping("/hi")
+    public String sayHi(){
+        return "HI!";
+    }
 }
