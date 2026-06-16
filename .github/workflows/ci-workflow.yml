@@ -24,7 +24,7 @@ jobs:
           java-version: 25
 
       - name: gradlew 권한 세팅
-        run: chmod
+        run: chmod +x ./gradlew
 
       - name: 태스트 실행
         run: ./gradlew test --no-daemon
