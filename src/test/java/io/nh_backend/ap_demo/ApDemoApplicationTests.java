@@ -8,6 +8,10 @@ class ApDemoApplicationTests {
 
     @Test
     void contextLoads() {
+//        throw new RuntimeException();
     }
 
 }
+
+//SCP
+//SFTP로 보내서 정적배포를 하기
