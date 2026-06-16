@@ -5,7 +5,7 @@ name: release-workflow.yml
 on:
   push:
     branches:
-      - main
+      - master
 
 env:
   REGISTRY: gchr.io
