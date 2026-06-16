@@ -1,0 +1,16 @@
+name: deployment-workflow.yml
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+
+  deploy:
+
+    runs-on: self-hosted
+    steps:
+    - name: Hello, World!
+      run: |
+        echo "Hello, World!" >> hello.log
