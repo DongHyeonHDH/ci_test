@@ -56,6 +56,7 @@ jobs:
       - name: gradlew 권한세팅
         run: chmod +x ./gradlew
 
+
       - name: Gradle 빌드
         run: ./gradlew build -x test
 

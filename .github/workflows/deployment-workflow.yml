@@ -13,4 +13,5 @@ jobs:
     steps:
     - name: Hello, World!
       run: |
-        echo "Hello, World!" >> hello.log
+        chmod +x /home/ubuntu/deployment.sh &&
+        /home/ubuntu/deployment.sh
